@@ -1,0 +1,8 @@
+package fasttrackIt.curs9.curs91.overloading;
+
+public class Dacia extends Car{
+    public void drive(String destination, int speed, int kwh){
+        drive(destination, speed);
+        System.out.printf("kwh consum" + kwh);
+    }
+}
