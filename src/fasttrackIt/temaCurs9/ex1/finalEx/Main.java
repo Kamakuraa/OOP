@@ -34,6 +34,8 @@ public class Main {
 
         System.out.println(programmer.language);
 
+
+
         programmer.getSalary(LocalDate.of(2001, 11, 23), "Junior");
 
         System.out.println();
@@ -41,6 +43,11 @@ public class Main {
         NewPerson newPerson = new NewPerson("John Doe", 99 );
         System.out.println(newPerson.years);
         System.out.println(newPerson.fullName);
+
+        programmer.getSalary(LocalDate.of(2001, 11, 23), "Manager");
+        programmer.getAddress();
+        programmer.getBirthDay();
+        programmer.getAddress();
 
 
 

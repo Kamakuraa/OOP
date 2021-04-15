@@ -7,6 +7,8 @@ public abstract class Employee extends Person{
     public LocalDate dateOfEmployment;
     public String position;
 
+
+
     public Employee(LocalDate dateOfEmployment, String position) {
         this.dateOfEmployment = dateOfEmployment;
         this.position = position;
