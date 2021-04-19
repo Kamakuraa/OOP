@@ -5,12 +5,12 @@ public class Main {
         Cosmetics cosmetics = new Cosmetics("Loreal");
         Electronics electronics = new Electronics();
         Fridge fridge = new Fridge("LG");
-        Product product = new Product() {
-            @Override
-            public void buy(int price, String name, int quantity) {
-                this.getPrice(10);
-            }
-        };
+       Product product = new Product() {
+           @Override
+           public void buy(int price, String name, int quantity) {
+
+           }
+       };
 
         System.out.println(cosmetics.getColor());
 
