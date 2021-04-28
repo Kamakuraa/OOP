@@ -67,9 +67,7 @@ public class Basket {
         fruits.add(item);
     }
 //    count the fruits
-    public void count(int countArray) {
-        System.out.println(fruits.size());
-    }
+
 // count the fruits without using size method (use a loop control statement + counter)
     public int customCount(int countFruits) {
         for (int i = 1; i < fruits.size(); i++) {

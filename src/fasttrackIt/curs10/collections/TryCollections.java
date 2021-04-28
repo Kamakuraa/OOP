@@ -68,7 +68,9 @@ public class TryCollections {
 
     private static void tryHashSet() {
         Set<String> materii = new HashSet<>(List.of("Matematica", "Info",
-                "romana"));
+                "romana", "bio", "fizica"));
+
+        System.out.println("++++++++++++++++++");
         System.out.println(materii);
         materii.stream().sorted();
         System.out.println(materii);

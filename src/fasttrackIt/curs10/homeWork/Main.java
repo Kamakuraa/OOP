@@ -12,7 +12,6 @@ public class Main {
         Employee anaEmployee = programmer;
         Person anaPerson = programmer;
 
-
         System.out.println(programmer.getLanguage());
 
         System.out.println(anaEmployee.getDateOfEmployment());
