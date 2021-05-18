@@ -28,4 +28,9 @@ public class DataBase extends Employee {
     public String getDbTechnology() {
         return dbTechnology;
     }
+
+    @Override
+    public boolean getAge() {
+        return false;
+    }
 }

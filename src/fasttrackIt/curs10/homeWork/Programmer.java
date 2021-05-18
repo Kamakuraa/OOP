@@ -50,4 +50,9 @@ public void setSalary(long salary){
     public void setLanguage(String language) {
         this.language = language;
     }
+
+    @Override
+    public boolean getAge() {
+        return false;
+    }
 }

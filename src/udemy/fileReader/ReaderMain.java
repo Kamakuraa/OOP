@@ -1,6 +1,6 @@
 package udemy.fileReader;
 
-import fasttrackIt.temacurs8.Tema.Tema2.Print;
+//import fasttrackIt.temacurs8.Tema.Tema2.Print;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;

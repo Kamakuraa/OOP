@@ -38,6 +38,11 @@ class UBBStudent implements Student {
     }
 
     @Override
+    public boolean getAge() {
+        return false;
+    }
+
+    @Override
     public LocalDate getBirthday() {
         return LocalDate.now();
     }

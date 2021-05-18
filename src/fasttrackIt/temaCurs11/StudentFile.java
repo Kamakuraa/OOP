@@ -50,7 +50,7 @@ public class StudentFile {
         }
     }
 //    pentru exercitiul 2 nu stiu cum sa aplic toate metodele
-// primesc toate notele dar nu reusesc sa returnez cea mai mare/mica si average nota 
+// primesc toate notele dar nu reusesc sa returnez cea mai mare/mica si average nota
 
     private static String gradesToStr(StudentGrade std) {
         return String.valueOf(Integer.parseInt(String.valueOf(std.getGrade())));
